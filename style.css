@@ -1,0 +1,278 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', sans;
+  font-weight: 100;
+  background-color: #484848;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav {
+  display: inline-block;
+background: url(wood.JPG);
+background-size: cover;
+height: auto;
+width: 100%;
+text-align: center;
+position: relative;
+}
+
+.nav .container {
+position: relative;
+height: 80px;
+}
+
+
+.nav img {
+    height: 100%;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+        left: 6%
+}
+
+.nav h2 {
+    position: absolute;
+        left: 7%;
+    height: 80px;
+    font-size: 200%;
+    color: #fff;
+    height: 80px;
+    margin: 20px;
+    padding: 0 20px;
+    z-index:2;
+}  
+
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto;
+  position: absolute;
+    right: 7%;
+}
+
+.nav ul li  {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 20px;
+  transition: background .5s; 
+  font-size: 190%;
+
+}
+
+a {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn:hover, .nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer; 
+  transition: background .5s; 
+  
+}
+
+/*---------------------------------------------------*/
+.header {
+  display: inline-block;
+background: #484848  center center; 
+background-size: cover;
+height: auto;
+min-height: 600px;
+width: 100%;
+text-align: center;
+}
+
+.header .container {
+position: relative;
+padding: 30px 30px 30px 30px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 10%
+  margin-bottom: 80px;
+  margin-left: 15%;
+  margin-right: 15%
+  
+}
+
+@media (max-width:650px) {
+  .header h1 {
+    font-size: 100px;
+  }
+}
+
+.header h2 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+/*---------------------------------------------------*/
+.project1 {
+    display: inline-block;
+  background: url(IMG_0038.JPG) center center;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+
+.project1 .container {
+  position: relative;
+  padding: 20px 30px 10px 30px;
+  max-height: 800px;
+}
+.project1 h1 {
+  color: #fff;
+  text-align: top left; 
+  font-size: 230%
+}
+.project1 h2 {
+  color: #fff;
+  text-align: bottom left;
+  padding-bottom: 10px; 
+}
+/*---------------------------------------------------*/
+.project2 {
+    display: inline-block;
+  background: #484848  center center; 
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  
+}
+.project2 .container {
+  position: relative;
+  padding: 20px 30px 10px 30px;
+  
+}
+.project2 .container h1 {
+  color: #fff;
+  text-align: top left; 
+  font-size: 230%
+}
+.project2 .container h2 {
+  color: #fff;
+  text-align: bottom left; 
+  padding-bottom: 10px; 
+  
+}
+
+/*---------------------------------------------------*/
+/* Slideshow container */
+ 
+ 
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:20px;
+  width: 100%;
+  text-align: center;
+}
+.mySlides {
+  display:none;
+}
+.active-slide {
+  display:block;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+/*---------------------------------------------------*/
+
+
+
+.footer { 
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    background: url(footer.jpg);
+}
+
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }

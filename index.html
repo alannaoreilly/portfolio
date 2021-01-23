@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <body> 
+      
+        <div class="nav">
+            <div class="container">
+                    <img src="green paint.png">
+                <ul>
+                    <li><a href="mailto:alanna.oreilly23@gmail.com">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/alanna-oreilly" target="_blank">LinkedIn</a></li>
+                </ul>   
+            </div>
+        </div> 
+
+        <div class="header">
+            <div class="container">
+                <h1>Hi, I'm Alanna. Welcome to my portfolio!</h1>
+                <h2>B.S. BIOMEDICAL ENGINEERING | RUTGERS UNIVERSITY</h2>
+            </div>
+        </div>
+
+            <div class="project1">
+                    <div class="container">
+                        <h1>In-Motion</h1>
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="In-Motion 1.jpg" style="width:100%">
+                              </div>
+                            
+                              <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="In-Motion 2.jpg" style="width:100%">
+                              </div>
+                            
+                              <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="In-Motion 3.jpg" style="width:100%">
+                              </div>
+                             
+                              <a class="prev">&#10094;</a>
+                              <a class="next">&#10095;</a>
+                            </div>
+                       
+                        <h2>Software Used: AutoCAD and Procreate</h2>
+                    </div>
+            </div>
+
+            <div class="project2">
+                <div class="container">
+                    <h1>Crew Caddy</h1>
+                        <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                  <div class="numbertext">1 / 3</div>
+                                  <img src="Crew Caddy 1.jpg" style="width:100%">
+                                  
+                                </div>
+                              
+                                <div class="mySlides fade">
+                                  <div class="numbertext">2 / 3</div>
+                                  <img src="Crew Caddy 2.jpg" style="width:100%">
+                                  
+                                </div>
+                              
+                                <div class="mySlides fade">
+                                  <div class="numbertext">3 / 3</div>
+                                  <img src="Crew Caddy 3.jpg" style="width:100%">
+                                  
+                                </div>
+                              
+                                <a class="prev" >&#10094;</a>
+                                <a class="next">&#10095;</a> 
+                        </div>
+                    <h2>Software Used: Autodesk Inventor and Procreate</h2>
+                </div>
+            </div>
+
+            <script>
+
+            (function() {
+
+                init(); //on page load - show first slide, hidethe rest
+              
+                function init() {
+              
+                  parents = document.getElementsByClassName('slideshow-container');
+              
+                  for (j = 0; j < parents.length; j++) {
+                    var slides = parents[j].getElementsByClassName("mySlides");
+                    
+                    slides[0].classList.add('active-slide');
+                    
+                  }
+                }
+              
+                
+              //prev/next functionality
+                links = document.querySelectorAll('.slideshow-container a');
+              
+                for (i = 0; i < links.length; i++) {
+                  links[i].onclick = function() {
+                    current = this.parentNode;
+              
+                    var slides = current.getElementsByClassName("mySlides");
+                    
+                    curr_slide = current.getElementsByClassName('active-slide')[0];
+                    
+                    curr_slide.classList.remove('active-slide');
+                    
+                    if (this.className == 'next') {
+              
+                      if (curr_slide.nextElementSibling.classList.contains('mySlides')) {
+                        curr_slide.nextElementSibling.classList.add('active-slide');
+                        
+                      } else {
+                        slides[0].classList.add('active-slide');
+                       
+                      }
+              
+                    }
+              
+                    if (this.className == 'prev') {
+              
+                      if (curr_slide.previousElementSibling) {
+                        curr_slide.previousElementSibling.classList.add('active-slide');
+                        
+                      } else {
+                        slides[slides.length - 1].classList.add('active-slide');
+                       
+                      }
+              
+                    }
+              
+                  }
+              
+                }
+              })();
+            </script>
+
+            <div class="footer">
+                <img src="footer.jpg">
+            </div>
+        
+    </body>
+</html>
