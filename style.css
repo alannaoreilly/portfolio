@@ -174,7 +174,30 @@ padding: 30px 30px 30px 30px;
   color: #fff;
   text-align: bottom left; 
   padding-bottom: 10px; 
-  
+}
+
+.project3 {
+  display: inline-block;
+background: url(IMG_0038.JPG) center center;
+background-size: cover;
+height: auto;
+width: 100%;
+}
+
+.project3 .container {
+position: relative;
+padding: 20px 30px 10px 30px;
+
+}
+.project3 .container h1 {
+color: #fff;
+text-align: top left; 
+font-size: 230%
+}
+.project3 .container h2 {
+color: #fff;
+text-align: bottom left; 
+padding-bottom: 10px; 
 }
 
 /*---------------------------------------------------*/
