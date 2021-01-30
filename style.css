@@ -138,7 +138,7 @@ padding: 30px 30px 30px 30px;
 
 .project1 .container {
   position: relative;
-  padding: 20px 30px 10px 30px;
+  padding: 50px 30px 0px 30px;
   max-height: 800px;
 }
 .project1 h1 {
@@ -162,7 +162,7 @@ padding: 30px 30px 30px 30px;
 }
 .project2 .container {
   position: relative;
-  padding: 20px 30px 10px 30px;
+  padding: 50px 30px 0px 30px;
   
 }
 .project2 .container h1 {
@@ -186,7 +186,7 @@ width: 100%;
 
 .project3 .container {
 position: relative;
-padding: 20px 30px 10px 30px;
+padding: 50px 30px 0px 30px;
 
 }
 .project3 .container h1 {
