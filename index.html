@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet"  href="style .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <header>
+        <nav>
+            <span class="nav-toggle" id="js-nav-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+            <div class="logo">
+                <img src="green paint.png">
+            </div>
+            <ul class="js-menu" id="js-menu">
+                <li><a href="mailto:alanna.oreilly23@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/alanna-oreilly" target="_blank">LinkedIn</a></li>
+                <li><a href="Resume - Alanna O'Reilly 2021.pdf" target="blank"> Resume</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <body>
+        <div class="home">
+            <div class="title">
+            <h1>Hi, I'm Alanna.<br>Welcome to my portfolio!</h1>
+           
+          </div>
+            <h2>B.S. BIOMEDICAL ENGINEERING | RUTGERS UNIVERSITY</h2>
+        </div>
+    </body>
+
+    <body class="projetcs">
+      <h2> Click to find out more about the projects</h2>
+            <div class="body" id="school">
+                <div class="container1">
+                    <button class="openmodal myBtn" style="background-image: url('Walker Preview.jpg'); background-size: cover;">
+                    </button>
+                      <div class="modal myModal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <span class="close">&times;</span>
+                                </div>
+                                <div class="purpose">
+                                    <h1>Purpose</h1>
+                                    <ul class="description">
+                                        <li>Improve motor function in hemiparetic stroke patients in the US that increases long term autonomy and reduces mortality</li>
+                                        <li>A more intense rehabiliation method that can be used at home</li>
+                                    </ul>
+                                </div>
+                                <div class="pictures">
+                                    <img src="Walker Sketch.png" style="width: 955px">
+                                    <img src="Iso - Walker1.png">
+                                    <img src="Back - Walker.png">
+                                    <img src="Left - Walker.png">
+                                    <img src="Top - Walker.png">
+                                    <img src="Iso Walker.png">
+                                    <img src="Side - Walker.png">
+                                    <img src="Front - Walker.png">
+                                </div>
+                            </div>
+                     </div>
+                
+
+                <button class="openmodal myBtn" style="background-image: url(Crew\ Cadding\ Preview.png); background-size: cover;">
+                  </button>
+                  <div class="modal myModal">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                            <span class="close">&times;</span>
+                          </div>
+                          <div class="purpose">
+                              <h1>Purpose</h1>
+                              <ul class="description">
+                                  <li>Hold items such as shoes and a water bottle during crew practice</li>
+                                  <li>Prevent interference of momentum and items sliding around in the boat</li>
+                              </ul>
+                          </div>
+                            <div class="pictures">
+                                <img src="Crew Caddy Sketch.png" style="width: 955px">
+                                <img src="CC Suction.png">
+                                <img src="Crew Caddy Lift.png">
+                                <img src="CC ISo.png">
+                                <img src="CC Final .png">
+                        </div>
+                      </div>
+                 </div>
+                
+
+
+                <button class="openmodal myBtn" style="background-image: url('Steps Preview.jpg'); background-size: cover;">
+                </button>
+                <div class="modal myModal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">&times;</span>
+                        </div>
+                        <div class="purpose">
+                            <h1>Purpose</h1>
+                            <ul class="description">
+                                <li>Steps that can be adjusted remotely for physical rehabilitation</li>
+                                <li>Could be used at home due to its compact design</li>
+                                <li>Eliminates the need for multiple, stackable steps</li>
+                                <li>Uses the TL18 Series Lifting Columns from TiMotion</li>
+                            </ul>
+                        </div>
+                          <div class="pictures">
+                              <img src="Stairs Sketch.png" style="width: 955px">
+                              <img src="Steps 2.jpg">
+                              <img src="Stairs 3.jpg">
+                              <img src="Steps Down.png">
+                              <img src="Steps Up.png">
+                              <img src="Steps Iso.png">
+                      </div>
+                    </div>
+               </div>
+
+               <button class="openmodal myBtn" style="background-image: url(Desk\ Preview.jpg); background-size: cover;">
+              </button>
+              <div class="modal myModal">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                      </div>
+                      <div class="purpose">
+                          <h1>Purpose</h1>
+                          <ul class="description">
+                              <li>Discrete, easy-access storage space for desk items</li>
+                              <li>Make desk appear flush to the wall rather than to the selving</li>
+                          </ul>
+                      </div>
+                        <div class="pictures">
+                            <img src="Desk Sketch.png" style="width: 955px">
+                            <img src="Iso - Box.png">
+                            <img src="Side - Box.png">
+                            <img src="Top - Desk.png">
+                            <img src="Desk Slider - ISo.png">
+                            <img src="Iso - Desk box in.png">
+                    </div>
+                  </div>
+             </div>
+
+     </div>
+   </div>
+
+</html>
+
+<script>
+  let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-nav-toggle");
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+</script>
+
+<script>
+    var modals = document.getElementsByClassName('modal');
+    // Get the button that opens the modal
+    var btns = document.getElementsByClassName("openmodal");
+    var spans=document.getElementsByClassName("close");
+    for(let i=0;i<btns.length;i++){
+        btns[i].onclick = function() {
+            modals[i].style.display = "block";
+        }
+    }
+    for(let i=0;i<spans.length;i++){
+        spans[i].onclick = function() {
+            modals[i].style.display = "none";
+        }
+      }
+</script>
