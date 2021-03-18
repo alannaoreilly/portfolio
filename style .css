@@ -4,6 +4,7 @@ body{
 
 }
 
+
 .body .home{
     margin: 0px;
     padding: 0px;
@@ -86,7 +87,7 @@ ul.js-menu li:hover {
   opacity: 0.35;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 980px) {
   nav {
     height: 80px;
     flex-direction: row;
@@ -241,6 +242,11 @@ span.nav-toggle {
   justify-content: space-between;  
   }
 
+  .pictures img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
   .container1{
   display: flex;
   justify-content: space-between;
@@ -381,9 +387,6 @@ padding: 120px 40px 30px 40px;
 }
 
 
-@media screen and (min-width: 800px) {
-  
-}
 
 .modal{
   display: none; /* Hidden by default */
@@ -579,9 +582,13 @@ ul.description li{
 }
 
 .pictures img{
-  max-width: 955px;
+  width: 100%;
   height: auto;
   align-items: center;
+}
+
+img{
+  width: 100%;
 }
 
 h2{
@@ -615,7 +622,7 @@ h4{
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 980px) {
   /*---------------------------------------------------*/
   /* Slideshow container */
 
@@ -715,7 +722,7 @@ h4{
 
 /*___mobile-__----*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
   .prev, .next{
     display: none;
   }
