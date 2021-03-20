@@ -9,6 +9,14 @@ body{
     padding: 0px;
 }
 
+header{
+  z-index: 2;
+}
+
+.active{
+  display: flex;
+}
+
 .home1{
   display: block;
   position: relative;
@@ -24,6 +32,10 @@ nav {
   height: 80px;
 }
 
+ul{
+  display: none;
+}
+
 span.nav-toggle {
   font-size: 30px;
   display: inline-block;
@@ -32,29 +44,53 @@ span.nav-toggle {
   right: 20px;
 }
 
+.js-menu-active.logo img{
+  margin: 150px 0 40px 0;
+  height: 80px;
+    width: auto;
+}
+
 .logo img{
   margin: 40px 0 40px 0;
   height: 80px;
     width: auto;
+   
 }
 
 .icon {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  display: inline-block;
+ 
 }
-
-ul.js-menu {
-  display: none;
+ul.js-menu-active {
+  z-index: 2;
   flex-direction: column;
-  justify-content: center;
   padding-left: 0;
   color:white;
-  background-color: transparent;
+  background-color: black;
   text-decoration: none;
-  height: 80px;
+  width: 100%;
+  height: auto;
 }
+
+.active{
+  display: flex;
+  position: relative;
+}
+ul.js-menu {
+  z-index: 2;
+  flex-direction: column;
+  padding-left: 0;
+  color:white;
+  background-color: black;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+  top: 150%;
+ 
+}
+
 
 ul.js-menu li {
   list-style-type: none;
@@ -70,6 +106,10 @@ ul.js-menu li {
   display: inline-block; 
   height: 80px;
   line-height: 80px; 
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+  border-bottom-width: 1px;
+  padding: 5px 50px;
   list-style: none;
   padding: 0 20px;
   transition: background .5s; 
@@ -91,7 +131,7 @@ ul.js-menu li:hover {
   opacity: 0.35;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1349px) {
   nav {
     height: 80px;
     flex-direction: row;
@@ -320,6 +360,9 @@ span.nav-toggle {
   @keyframes fadeIn {
   from {opacity: 0} 
   to {opacity: 1}
+  }
+  .active{
+    display: flex;
   }
 }
 
@@ -630,7 +673,7 @@ h4{
 
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1349px) {
   /*---------------------------------------------------*/
   /* Slideshow container */
 
@@ -730,7 +773,7 @@ h4{
 
 /*___mobile-__----*/
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1349px) {
   .prev, .next{
     display: none;
   }
