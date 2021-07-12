@@ -529,21 +529,22 @@ text-align:center;
 text-decoration: none;
 font-size: 16px;
 font-family: "Inconsolata", sans-serif;
-width: 350px;
-height: 350px;
+width:25vw;
+height:25vw;
 }
 
-#walker, #desk{
+#walker, #desk, #tanz{
   margin-right: 100px;
 }
 
-#steps{
+#steps, #clock{
   margin-left: 100px;
 }
 
-#desk{
+#desk {
   float: left;
 }
+
 .container1{
 justify-content: space-between;
 text-align: center;
@@ -669,9 +670,9 @@ h4{
   float: left;
 }
 
-.purpose .h1{
 
-}
+
+
 
 @media screen and (min-width: 1349px) {
   /*---------------------------------------------------*/
@@ -805,8 +806,8 @@ h4{
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Inconsolata", sans-serif;
-    width: 500px;
-    height: 500px;
+    width: 15vw;
+    height: 15vw;
     display: inline-block;
     justify-content: space-between;  
     }
@@ -937,15 +938,15 @@ h4{
     font-size:190%;
   }
 
-  #walker{
+  #walker, #tanz{
     margin-right: 0px;
   }
   
-  #steps, #desk{
+  #steps, #desk, #clock{
     margin-left: 0px;
   }
   
-  #desk{
+  #desk, #snickers{
     float: none;
     
   }
@@ -954,3 +955,11 @@ html{
   display: flex;
 }
 }
+
+.title{
+  margin-left: 20px;
+  color:black;
+  font-size:1.5vw;
+  margin-bottom:none;
+}
+
