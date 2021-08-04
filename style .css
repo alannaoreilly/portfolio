@@ -86,7 +86,7 @@ ul.js-menu-active {
   position: relative;
 }
 ul.js-menu {
-  z-index: 2;
+
   flex-direction: column;
   padding-left: 0;
   color:white;
@@ -263,7 +263,7 @@ span.nav-toggle {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 1.5vw;
   }
 
   .modal-header {
@@ -475,7 +475,7 @@ display: flex;
 flex-direction: column;
 position: absolute;
 margin-left: auto;
-max-width: 995px;
+width:50vw;
 height: auto;
 border-radius: 3px;
 background: white;
@@ -626,7 +626,7 @@ ul.description li{
   display: list-item;
   list-style-type: circle;
   float: left;
-  font-size: 180%;
+  font-size: 1.5vw;
   clear: left;
   text-align: left;
 }
@@ -638,6 +638,7 @@ ul.description li{
   position: relative;
   text-align: left;
   margin-bottom: 0px;
+  font-size:2vw;
 }
 
 .purpose{
