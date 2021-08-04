@@ -225,7 +225,7 @@ span.nav-toggle {
   flex-direction: column;
   position: absolute;
   margin-left: auto;
-  max-width: 975px;
+
   border-radius: 3px;
   background: white;
   box-shadow: rgb(15 15 15 / 5%) 0px 0px 0px 1px, rgb(15 15 15 / 10%) 0px 5px 10px, rgb(15 15 15 / 20%) 0px 15px 40px;
@@ -263,7 +263,7 @@ span.nav-toggle {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 150%;
   }
 
   .modal-header {
@@ -513,7 +513,7 @@ display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  font-size: 150%;
+  font-size: 1.5vw;
 }
 
 .modal-header {
