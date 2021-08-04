@@ -434,7 +434,7 @@ padding: 120px 40px 30px 40px;
   margin-bottom: 40px;
   margin-top: 100px;
   text-transform: uppercase; 
-  font-size:190%;
+  font-size:1.5vw;
 }
 
 /*____________________*/
@@ -494,7 +494,7 @@ animation-duration: 0.4s
 .close {
 color:white;
 float: right;
-font-size: 40px;
+font-size: 1.3vw;
 font-weight: bold;
 height: 10px;
 }
@@ -520,7 +520,7 @@ display: block;
 padding: 8px 16px;
 background-color: #000000;
 color: white;
-height: 40px;
+height: 4vh;
 }
 
 .modal-body {
