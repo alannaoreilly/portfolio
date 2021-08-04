@@ -53,7 +53,7 @@ span.nav-toggle {
 
 .logo img{
   margin: 40px 0 40px 0;
-  height: 80px;
+  height: 15vw;
     width: auto;
    
 }
@@ -663,7 +663,7 @@ h2{
 }
 
 footer{
-  height: 100%;
+
   background-color: black;
   text-align: center;
 }
@@ -821,8 +821,8 @@ h4{
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Inconsolata", sans-serif;
-    width: 15vw;
-    height: 15vw;
+    width: 60vw;
+    height: 60vw;
     display: inline-block;
     justify-content: space-between;  
     }
@@ -920,7 +920,7 @@ h4{
   .home {
   background: radial-gradient(#9e9e9e, #585858) center center; 
   background-size: cover;
-  min-height: 600px;
+  min-height: 300px;
   text-align: center;
   position: relative;
   padding: 120px 40px 30px 40px;
@@ -942,8 +942,8 @@ h4{
   
   .home h1 {
     color: #fff;
-    line-height: 90px; 
-    font-size: 100px;
+    line-height: 4vh; 
+    font-size: 11vw;
     margin: 0px;
   
   }
@@ -955,7 +955,7 @@ h4{
     margin-bottom: 40px;
     margin-top: 100px;
     text-transform: uppercase; 
-    font-size:190%;
+    font-size:60%;
   }
 
   #walker, #tanz{
@@ -977,10 +977,28 @@ html{
 }
 
 .title{
-  margin-left: 20px;
+  
   color:black;
   font-size:1.5vw;
   margin-bottom:none;
 }
 
+h2{
+  font-size:4.5vw;
+  margin-left:2vw;
 }
+.category{
+  font-size:5vw;
+  margin-top:0px;
+}
+#desk{
+  margin-right:0px;
+}
+
+
+
+h3{
+  font-size:2vw;
+}
+}
+
