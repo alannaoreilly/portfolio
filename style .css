@@ -550,12 +550,15 @@ height:25vw;
   margin-right: 100px;
 }
 
-#steps, #clock{
+#steps, #clock, #rectangle2{
   margin-left: 100px;
 }
 
-#desk {
-  float: left;
+#rectangle1, #rectangle2 {
+  height: 25vw;
+  width: 25vw;
+  background-color: rgba(85, 85, 85, 0);
+  display:inline-block;
 }
 
 .container1{
