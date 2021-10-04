@@ -1,8 +1,14 @@
 body{
   margin: 0px;
   padding: 0px;
+  font-family: 'Poppins-Medium';
 }
 
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url(Poppins-Medium.ttf) format('truetype');
+}
 
 .body .home{
     margin: 0px;
@@ -982,7 +988,7 @@ h4{
   .home h1 {
     color: #fff;
     line-height: 9vw; 
-    font-size: 10vw;
+    font-size: 11vw;
     margin: 0px;
   
   }
