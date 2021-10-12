@@ -828,7 +828,7 @@ h4{
     padding: 8px 16px;
     background-color: #000000;
     color: white;
-    height: 40px;
+    height: 1vh;
     }
   
     .modal-body {
@@ -987,7 +987,7 @@ h4{
   
   .home h1 {
     color: #fff;
-    line-height: 9vw; 
+    line-height: 5vh; 
     font-size: 11vw;
     margin: 0px;
   
@@ -1007,10 +1007,14 @@ h4{
     margin-right: 0px;
   }
   
-  #steps, #desk, #clock{
+  #steps, #clock{
     margin-left: 0px;
   }
   
+  #desk{
+    margin-right:17%;
+  }
+
   #desk, #snickers{
     float: none;
     
