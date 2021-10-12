@@ -502,7 +502,7 @@ animation-duration: 0.4s
   position: absolute;
   margin-left: auto;
   width:60vw;
-  height: 30vh;
+
   border-radius: 3px;
   background: white;
   box-shadow: rgb(15 15 15 / 5%) 0px 0px 0px 1px, rgb(15 15 15 / 10%) 0px 5px 10px, rgb(15 15 15 / 20%) 0px 15px 40px;
