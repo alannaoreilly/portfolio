@@ -836,12 +836,7 @@ h4{
       font-size:5vw
     }
 
-    .logo img{
-    
-      height: 9vh;
-      width: auto;
-      margin:0px; 
-    }
+   
 
     #rectangle1, #rectangle2 {
       height: 0;
@@ -880,7 +875,7 @@ h4{
     .container1{
     display: flex;
     justify-content: space-between;
-   
+   text-align: center;
     margin-left: 15px;
     margin-right: 15px;
     height:fit-content;
@@ -958,7 +953,7 @@ h4{
     
 
   .home {
-  background: white center center; 
+  background: rgb(52,52,520 center center; 
   background-size: cover;
   min-height: 300px;
   text-align: center;
